@@ -1,0 +1,29 @@
+{
+  "name": "cloudserver",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ad",
+  "license": "ISC",
+  "dependencies": {
+    "@react-navigation/stack": "^5.10.0",
+    "bcryptjs": "^2.4.3",
+    "concurrently": "^5.3.0",
+    "config": "^3.3.2",
+    "express": "^4.17.1",
+    "http": "0.0.1-security",
+    "jsonwebtoken": "^8.5.1",
+    "moment": "^2.29.1",
+    "mongoose": "^5.10.9",
+    "mqtt": "^4.2.6",
+    "postscribe": "^2.0.8"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
